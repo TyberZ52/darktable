@@ -12,6 +12,6 @@ run	apt-get update
 run	apt-get install -y x11vnc xvfb darktable
 run	mkdir /.vnc
 # Setup a password
-run	x11vnc -storepasswd 1234 ~/.vnc/passwd
+run	x11vnc #-storepasswd 1234 #~/.vnc/passwd
 # Autostart firefox (might not be the best way to do it, but it does the trick)
 run	bash -c 'echo "darktable" >> /.bashrc'
