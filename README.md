@@ -1,4 +1,4 @@
-docker-firefox
+docker-darktable
 ==============
 
-Firefox over Docker via VNC
+darktable over Docker via VNC
